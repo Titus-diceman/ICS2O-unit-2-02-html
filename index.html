@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit2-02-HTML -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Basic math, with JS" />
+    <meta name="keywords" content="mths, ics2o" />
+    <meta name="author" content="Titus Diceman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.purple-deep_purple.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Basic Math</title>
+  </head>
+  <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
+    <h1><b>Area and Perimeter</b></h1>
+    <img src="./images/rectangle.png" alt="width=12 length=7">
+      
+         <!-- basic text -->
+    <h4><b>Area:</b></h4>
+        <div id="area">
+        <p>7 × 5 = ?</p>
+        </div>
+        <br>
+        <h4><b>Perimeter:</b></h4>
+         <div id="perimeter">
+           <p>2(7 + 5) = ?</p>
+         </div>
+        <br>
+     <!-- Accent-colored raised button with ripple -->
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="calculateClicked()">
+  calculate
+    </button>
+  </body>
+</html>
